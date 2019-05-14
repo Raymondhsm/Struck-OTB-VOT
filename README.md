@@ -1,8 +1,9 @@
 # Struck-OTB-VOT
-基于struck的github代码改进，用于测试OTB以及VOT数据集，并增加Precision Rate和Success Rate的曲线绘制。
+基于struck的github代码改版，用于测试OTB以及VOT数据集，并增加Precision Rate和Success Rate的曲线绘制。
 
 #### 环境配置
-项目运行需要openCV和Eigen 3的库支持。我自己跑得时候使用的是openCV 2.4.13和Eigen 3的版本，其他版本没试过，可以试一试。
+* 项目运行需要openCV和Eigen 3的库支持。我自己跑得时候使用的是openCV 2.4.13和Eigen 3的版本，其他版本没试过，可以试一试。
+* 使用vs打开mybuild/STRUCK.sln
 
 #### 项目内路径说明
 * 跑VOT和OTB数据集是需要修改项目内main.cpp中56行的listPath的路径，就是数据集中list.txt的路径，list.txt中包含数据集各个数据的文件名列表。
