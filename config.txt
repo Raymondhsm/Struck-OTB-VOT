@@ -5,20 +5,21 @@ quietMode = 0
 debugMode = 1
 
 # base path for video sequences.
-sequenceBasePath = sequences
+sequenceBasePath = E:/sequences
 
 # path for output results file.
 # comment this out to disable output.
-#resultsPath = log.txt
+resultsPath = E:/sequences/result
 
 # video sequence to run the tracker on.
 # comment this out to use webcam.
-sequenceName = girl
+sequenceName = Dudek
 
 # frame size for use during tracking.
 # the input image will be scaled to this size.
 frameWidth = 320
 frameHeight = 240
+
 
 # seed for random number generator.
 seed = 0
